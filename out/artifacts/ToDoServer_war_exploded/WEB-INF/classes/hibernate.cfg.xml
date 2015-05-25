@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/tododb</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.username">myuser</property>
+        <property name="connection.password">1234</property>
+
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <mapping class="com.todolist.model.Todo"/>
+        <mapping resource="com/todolist/model/Todo.hbm.xml"/>
+        <mapping class="com.todolist.model.User"/>
+        <mapping resource="com/todolist/model/User.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

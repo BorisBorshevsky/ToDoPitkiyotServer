@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.todolist.model.Todo" table="tasks" schema="" catalog="tododb">
+        <id name="id">
+            <column name="id" sql-type="int" not-null="true"/>
+            <generator class="increment"></generator>
+        </id>
+        <property name="userId">
+            <column name="userId" sql-type="varchar(1024)" length="1024" />
+        </property>
+        <property name="title">
+            <column name="title" sql-type="varchar(1024)" length="1024" />
+        </property>
+        <property name="dueDate">
+            <column name="dueDate" sql-type="date" />
+        </property>
+        <property name="done">
+            <column name="done" sql-type="BOOLEAN" />
+        </property>
+        <property name="priority">
+            <column name="priority" sql-type="varchar(1024)" length="1024"/>
+        </property>
+    </class>
+</hibernate-mapping>

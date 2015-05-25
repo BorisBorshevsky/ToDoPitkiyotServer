@@ -1,0 +1,12 @@
+<footer>
+    <div class="container">
+        <div class="row well">
+            <div align="center">
+            <p>&copy; 2015 Pitkiyot - Todo list manager, JavaEE HIT Project</p>
+        </div>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>

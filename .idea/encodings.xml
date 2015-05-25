@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/resources/data.sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/schema.sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/LoginServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/LogoutServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/RegisterServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/filter/LoginFilter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/HomeServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/AccountServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/DeleteAccountServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/UpdateAccountServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/utils/Views.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/Priority.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/Todo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/view/about.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/view/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/view/error.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/view/index.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/view/todo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/view/user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/views/about.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/views/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/views/error.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/views/todo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/views/user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/static/css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/static/img" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/static/js" charset="UTF-8" />
+  </component>
+</project>

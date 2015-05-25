@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQLConnector - tododb@localhost" uuid="7e555212-2b9c-416c-b43e-567b577fb59b">
+      <secret-storage>master_key</secret-storage>
+      <user-name>myuser</user-name>
+      <schema-pattern>tododb.*</schema-pattern>
+      <default-schemas>tododb.*</default-schemas>
+    </data-source>
+  </component>
+</project>
