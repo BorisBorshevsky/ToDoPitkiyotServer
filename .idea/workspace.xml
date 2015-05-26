@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b77d50ec-d542-4cf2-889a-425e3abe69da" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\out\artifacts\ToDoServer_war_exploded\lib\jstl-1.2-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\out\artifacts\ToDoServer_war_exploded\lib\jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\web\lib\jstl-1.2-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\web\lib\jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\javax.servlet.jsp.jstl-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\jsp-api-2.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\jstl-1.2-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\servlet-api-2.4.jar" afterPath="" />
+      <change type="MOVED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\.idea\libraries\javax_servlet_jsp_jstl_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoServer.iml" afterPath="$PROJECT_DIR$/ToDoServer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ToDoServer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ToDoServer_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ToDoServer.iws" />
@@ -70,8 +73,8 @@
       <file leaf-file-name="search.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0745543">
-              <caret line="39" column="168" selection-start-line="39" selection-start-column="168" selection-end-line="39" selection-end-column="168" />
+            <state vertical-scroll-proportion="0.8541329">
+              <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -530,54 +533,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todolist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cotroller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToDoServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToDoPitkiyotServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todolist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cotroller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToDoServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToDoPitkiyotServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="out2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -604,6 +559,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoPitkiyotServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -623,7 +592,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="JPA.DatabaseSchemaImportDialog" value="7e555212-2b9c-416c-b43e-567b577fb59b" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2632184" />
     <property name="OverrideImplement.combined" value="true" />
@@ -633,9 +602,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1001,7 +970,7 @@
       <workItem from="1432663511058" duration="3208000" />
       <workItem from="1432670005717" duration="1271000" />
       <workItem from="1432678735347" duration="53000" />
-      <workItem from="1432679442736" duration="1135000" />
+      <workItem from="1432679442736" duration="1565000" />
     </task>
     <task id="LOCAL-00001" summary="XxX">
       <created>1432680275984</created>
@@ -1009,11 +978,17 @@
       <option name="project" value="LOCAL" />
       <updated>1432680275984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="XxX">
+      <created>1432680589214</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1432680589214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42382000" />
+    <option name="totallyTimeSpent" value="42812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
@@ -1561,8 +1536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0745543">
-          <caret line="39" column="168" selection-start-line="39" selection-start-column="168" selection-end-line="39" selection-end-column="168" />
+        <state vertical-scroll-proportion="0.8541329">
+          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
           <folding />
         </state>
       </provider>
@@ -1634,7 +1609,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>javax.servlet.jsp.jstl-1.2.1</last-edited>
+          <last-edited>jstl-1.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

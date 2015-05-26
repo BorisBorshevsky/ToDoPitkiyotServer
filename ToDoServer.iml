@@ -29,8 +29,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.0.20" level="application_server_libraries" />
-    <orderEntry type="library" exported="" name="javax.servlet.jsp.jstl-1.2.1" level="project" />
     <orderEntry type="library" exported="" name="Hibernate Validator-5.0.1" level="project" />
     <orderEntry type="library" exported="" name="Hibernate 4.2.2-4.2.2" level="project" />
+    <orderEntry type="library" name="jstl-1.2" level="project" />
   </component>
 </module>
