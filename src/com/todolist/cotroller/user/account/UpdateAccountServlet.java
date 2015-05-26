@@ -5,6 +5,7 @@ import com.todolist.model.Todo;
 import com.todolist.model.User;
 import com.todolist.model.api.TodoDaoException;
 import com.todolist.model.api.UserRepository;
+import com.todolist.model.api.UserRepositoryImpl;
 import com.todolist.model.utils.TodoListUtils;
 
 import javax.servlet.ServletConfig;
@@ -24,13 +25,9 @@ public class UpdateAccountServlet extends HttpServlet {
 
     private UserRepository userService;
 
-    private ResourceBundle resourceBundle;
-
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-//        ApplicationContext applicationContext = WebApplicationContextUtils.getWebApplicationContext(servletConfig.getServletContext());
-//        userService = applicationContext.getBean(UserService.class);
-//        resourceBundle = ResourceBundle.getBundle("todolist");
+        userService = userService = UserRepositoryImpl.getInstance();
     }
 
     @Override

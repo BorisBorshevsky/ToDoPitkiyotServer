@@ -66,10 +66,6 @@ public class UpdateTodoServlet extends HttpServlet {
         try {
             Todo todo = todoService.getTodoById(todoId);
             todo.setTitle(title);
-
-
-
-
             todo.setDueDate(extractDate(dueDate));
             todo.setDone(Boolean.valueOf(status));
             todo.setPriority(Priority.valueOf(priority));
