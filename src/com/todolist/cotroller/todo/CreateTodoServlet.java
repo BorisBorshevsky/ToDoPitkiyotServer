@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -53,7 +54,7 @@ public class CreateTodoServlet extends HttpServlet {
         String priority = request.getParameter("priority");
 
         try {
-            Todo todo = new Todo(user.getId(), title, false, Priority.valueOf(priority), new Date(dueDate));
+            Todo todo = new Todo(user.getId(), title, false, Priority.valueOf(priority), extractDate(dueDate));
             todoService.create(todo);
             request.getRequestDispatcher("/todos").forward(request, response);
         } catch (TodoDaoException e) {
@@ -61,6 +62,15 @@ public class CreateTodoServlet extends HttpServlet {
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);
         }
 
+    }
+
+    //handle several date types from the client
+    private Date extractDate(String date) {
+        try {
+            return new SimpleDateFormat("dd/MM/yyyy").parse(date);
+        } catch (ParseException e) {
+            return new Date(date);
+        }
     }
 
 }
