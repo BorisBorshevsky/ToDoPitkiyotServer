@@ -70,7 +70,7 @@ public class UpdateTodoServlet extends HttpServlet {
 
 
 
-            todo.setDueDate(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(dueDate));
+            todo.setDueDate(extractDate(dueDate));
             todo.setDone(Boolean.valueOf(status));
             todo.setPriority(Priority.valueOf(priority));
             todoService.update(todo);
@@ -78,8 +78,16 @@ public class UpdateTodoServlet extends HttpServlet {
         } catch (TodoDaoException e) {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);
-        } catch (ParseException e) {
-            e.printStackTrace();
         }
     }
+
+    //handle several date types from the client
+    private Date extractDate(String date){
+        try{
+            return new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(date);
+        }catch (ParseException e) {
+            return new Date(date);
+        }
+    }
+
 }

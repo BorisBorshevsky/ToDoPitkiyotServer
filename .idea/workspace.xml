@@ -43,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TodoRepositoryImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TodoRepositoryImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33263597">
+            <state vertical-scroll-proportion="0.0">
               <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding />
             </state>
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpdateTodoServlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UpdateTodoServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33263597">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -211,8 +211,8 @@
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/todo/create.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/user/home.jsp" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java" />
       </list>
     </option>
   </component>
@@ -883,12 +883,12 @@
       <updated>1432420948701</updated>
       <workItem from="1432420951819" duration="34737000" />
       <workItem from="1432580726767" duration="4348000" />
-      <workItem from="1432656635271" duration="1881000" />
+      <workItem from="1432656635271" duration="2227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40966000" />
+    <option name="totallyTimeSpent" value="41312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
@@ -1012,8 +1012,20 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1421,18 +1433,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33263597">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>
