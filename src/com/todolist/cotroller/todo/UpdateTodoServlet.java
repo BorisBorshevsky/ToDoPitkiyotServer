@@ -16,6 +16,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.MessageFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.ZonedDateTime;
 import java.util.Date;
 
 /**
@@ -63,7 +66,11 @@ public class UpdateTodoServlet extends HttpServlet {
         try {
             Todo todo = todoService.getTodoById(todoId);
             todo.setTitle(title);
-            todo.setDueDate(new Date(dueDate));
+
+
+
+
+            todo.setDueDate(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(dueDate));
             todo.setDone(Boolean.valueOf(status));
             todo.setPriority(Priority.valueOf(priority));
             todoService.update(todo);
@@ -71,6 +78,8 @@ public class UpdateTodoServlet extends HttpServlet {
         } catch (TodoDaoException e) {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);
+        } catch (ParseException e) {
+            e.printStackTrace();
         }
     }
 }

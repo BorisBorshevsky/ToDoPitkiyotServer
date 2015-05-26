@@ -33,7 +33,7 @@
                         <div class="control-group">
                             <label class="control-label" for="dueDate">Due date:</label>
                             <div class="controls">
-                                <input type="text" id="dueDate" name="dueDate" value="<fmt:formatDate pattern='dd/MM/yyyy' value='${requestScope.todo.dueDate}' />" required="required" />
+                                <input id="dueDate" name="dueDate" type="text" value="${requestScope.todo.dueDate}" required="required" />
                             </div>
                         </div>
 

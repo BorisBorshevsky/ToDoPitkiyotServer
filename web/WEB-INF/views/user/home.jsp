@@ -34,11 +34,9 @@
                             <td>${currentTodo.id}</td>
                             <td>${currentTodo.title}</td>
                             <td><fmt:formatDate value="${currentTodo.dueDate}" pattern="dd/MM/yyyy"/></td>
-                            <td>${currentTodo.dueDate}</td>
                             <td>${currentTodo.priority}</td>
                             <%--<td><i class="icon-circle-arrow-<tl:priorityIcon priority="${currentTodo.priority}"/>"></i> ${currentTodo.priority}</td>--%>
-                            <td>${currentTodo.done}</td>
-                            <td><span class="label <c:if test="${currentTodo.done}">label-success</c:if>"><c:if test="${currentTodo.done}">Done</c:if> </span></td>
+                            <td><span class="label <c:if test="${currentTodo.done}">label-success</c:if>"> ${currentTodo.done == true ? "Done" : "Not Done"}</span></td>
                             <%--<td><span class="label <tl:statusStyle status="${currentTodo.done}"/> "> <tl:statusLabel status="${currentTodo.done}"/></span></td>--%>
                             <td>
                                 <a class="btn btn-mini btn-primary" href="/todos/update?todoId=${currentTodo.id}"><i class="icon-edit icon-white"></i> Edit</a>

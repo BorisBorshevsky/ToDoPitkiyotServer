@@ -26,7 +26,7 @@
                         <div class="control-group">
                             <label class="control-label" for="dueDate">Due date:</label>
                             <div class="controls">
-                                <input type="text" id="dueDate" name="dueDate" value="${requestScope.today}" required="required" />
+                                <input type="text" id="dueDate" name="dueDate" data-format="dd/MM/yyyy" value="${requestScope.today}" required="required" />
                             </div>
                         </div>
 

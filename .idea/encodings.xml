@@ -5,9 +5,6 @@
     <file url="file://$PROJECT_DIR$/resources/schema.sql" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/LoginServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/LogoutServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/RegisterServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/filter/LoginFilter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java" charset="UTF-8" />
@@ -30,12 +27,6 @@
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryImpl.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/view/about.jsp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/view/common" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/view/error.jsp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/view/index.jsp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/view/todo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/view/user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/views/about.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/views/common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/views/error.jsp" charset="UTF-8" />
