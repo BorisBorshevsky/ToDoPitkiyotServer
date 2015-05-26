@@ -35,10 +35,9 @@
                                 <td><tl:highlight pattern="${param.title}" cssClass="label label-warning">${currentTodo.title}</tl:highlight></td>
                             <td><fmt:formatDate value="${currentTodo.dueDate}" pattern="dd/MM/yyyy"/></td>
                             <td>
-                                <i class="icon-circle-arrow-<tl:priorityIcon priority="${currentTodo.priority}"/>"></i> ${currentTodo.priority}
+                                <i class="icon-circle-arrow-<tl:priorityIcon priority='${currentTodo.priority}'/>"></i> ${currentTodo.priority}
                             </td>
-                            <td><span class="label <tl:statusStyle status="${currentTodo.done}"/> "> <tl:statusLabel
-                                    status="${currentTodo.done}"/></span></td>
+                            <td><span class="label <c:if test="${currentTodo.done}">label-success</c:if>"> ${currentTodo.done == true ? "Done" : "Not Done"}</span></td>
                             <td>
                                 <a class="btn btn-mini btn-primary" href="/todos/update?todoId=${currentTodo.id}"><i
                                         class="icon-edit icon-white"></i> Edit</a>
