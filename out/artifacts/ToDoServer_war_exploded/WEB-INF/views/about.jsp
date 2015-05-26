@@ -20,7 +20,7 @@
                     </tr>
                     <tr>
                         <td>Home page</td>
-                        <td><a href="https://github.com/BorisBorshevsky">https://github.com/BorisBorshevsky</a></td>
+                        <td><a href="https://github.com/BorisBorshevsky/ToDoPitkiyotServer">https://github.com/BorisBorshevsky</a></td>
                     </tr>
                     <tr>
                         <td colspan="2"><strong>Frameworks</strong></td>
