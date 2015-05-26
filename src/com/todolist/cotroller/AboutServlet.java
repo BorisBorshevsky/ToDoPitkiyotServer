@@ -13,7 +13,6 @@ import java.io.IOException;
 
 /**
  * Servlet that controls the "about" page.
- *
  */
 
 @WebServlet(name = "AboutServlet", urlPatterns = "/about")

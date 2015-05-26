@@ -6,9 +6,9 @@ import com.todolist.cotroller.utils.Views;
 import com.todolist.model.Priority;
 import com.todolist.model.Todo;
 import com.todolist.model.User;
+import com.todolist.model.api.ServiceDaoHelper;
 import com.todolist.model.api.TodoDaoException;
 import com.todolist.model.api.TodoRepository;
-import com.todolist.model.api.TodoRepositoryImpl;
 import com.todolist.model.utils.TodoListUtils;
 
 import javax.servlet.ServletConfig;
@@ -24,7 +24,6 @@ import java.util.Date;
 
 /**
  * Servlet that controls todo creation.
- *
  */
 
 @WebServlet(name = "CreateTodoServlet", urlPatterns = {"/todos/new", "/todos/new.do"})
@@ -34,7 +33,7 @@ public class CreateTodoServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        todoService = TodoRepositoryImpl.getInstance();
+        todoService = ServiceDaoHelper.getTodoRepository();
     }
 
     @Override
@@ -57,7 +56,7 @@ public class CreateTodoServlet extends HttpServlet {
             Todo todo = new Todo(user.getId(), title, false, Priority.valueOf(priority), new Date(dueDate));
             todoService.create(todo);
             request.getRequestDispatcher("/todos").forward(request, response);
-        }catch (TodoDaoException e){
+        } catch (TodoDaoException e) {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);
         }

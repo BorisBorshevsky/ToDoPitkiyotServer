@@ -4,9 +4,9 @@ package com.todolist.cotroller.todo;
 import com.todolist.cotroller.utils.Views;
 import com.todolist.model.Priority;
 import com.todolist.model.Todo;
+import com.todolist.model.api.ServiceDaoHelper;
 import com.todolist.model.api.TodoDaoException;
 import com.todolist.model.api.TodoRepository;
-import com.todolist.model.api.TodoRepositoryImpl;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -15,15 +15,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.text.MessageFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.ZonedDateTime;
 import java.util.Date;
 
 /**
  * Servlet that controls todo update.
- *
  */
 
 @WebServlet(name = "UpdateTodoServlet", urlPatterns = {"/todos/update", "/todos/update.do"})
@@ -34,7 +31,7 @@ public class UpdateTodoServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        todoService = TodoRepositoryImpl.getInstance();
+        todoService = ServiceDaoHelper.getTodoRepository();
     }
 
     @Override
@@ -48,7 +45,7 @@ public class UpdateTodoServlet extends HttpServlet {
         } catch (NumberFormatException e) {
             request.setAttribute("error", id + " - no such todo");
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);
-        } catch (TodoDaoException e){
+        } catch (TodoDaoException e) {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);
         }
@@ -78,10 +75,10 @@ public class UpdateTodoServlet extends HttpServlet {
     }
 
     //handle several date types from the client
-    private Date extractDate(String date){
-        try{
+    private Date extractDate(String date) {
+        try {
             return new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(date);
-        }catch (ParseException e) {
+        } catch (ParseException e) {
             return new Date(date);
         }
     }

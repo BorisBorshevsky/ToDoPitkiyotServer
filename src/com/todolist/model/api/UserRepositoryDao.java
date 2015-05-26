@@ -5,19 +5,23 @@ package com.todolist.model.api;
 
 import com.todolist.model.User;
 import org.hibernate.*;
+
 import java.util.List;
 
-public class UserRepositoryImpl implements UserRepository {
+public class UserRepositoryDao implements UserRepository {
 
     private SessionFactory getSession() {
         return SessionFactoryDao.getSession();
     }
 
-    private static UserRepositoryImpl instance;
-    private UserRepositoryImpl(){}
-    public synchronized static UserRepositoryImpl getInstance() {
-        if (instance == null){
-            instance = new UserRepositoryImpl();
+    private static UserRepositoryDao instance;
+
+    private UserRepositoryDao() {
+    }
+
+    public synchronized static UserRepositoryDao getInstance() {
+        if (instance == null) {
+            instance = new UserRepositoryDao();
         }
         return instance;
     }

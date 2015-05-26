@@ -8,7 +8,8 @@ public class TodoDaoException extends Exception {
     public TodoDaoException(String msg) {
         super(msg);
     }
+
     public TodoDaoException(String msg, Throwable cause) {
-        super(msg,cause);
+        super(msg, cause);
     }
 }

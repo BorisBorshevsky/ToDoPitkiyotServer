@@ -11,16 +11,12 @@ public class SessionFactoryDao {
 
     static {
         try {
-            // Create the SessionFactory from hibernate.cfg.xml
-            //sessionFactory = new Configuration().configure("/com/company/todo/hibernate.cfg.xml").buildSessionFactory();
             Configuration configuration = new Configuration();
-
             configuration.configure("hibernate.cfg.xml");
             ServiceRegistry serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();
             sessionFactory = configuration.buildSessionFactory(serviceRegistry);
 
         } catch (Throwable ex) {
-            // Make sure you log the exception, as it might be swallowed
             System.err.println("Initial SessionFactory creation failed." + ex);
             throw new ExceptionInInitializerError(ex);
         }

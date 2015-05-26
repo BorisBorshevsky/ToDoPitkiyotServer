@@ -4,9 +4,9 @@ package com.todolist.cotroller.user;
 
 import com.todolist.cotroller.utils.Views;
 import com.todolist.model.User;
+import com.todolist.model.api.ServiceDaoHelper;
 import com.todolist.model.api.TodoDaoException;
 import com.todolist.model.api.UserRepository;
-import com.todolist.model.api.UserRepositoryImpl;
 import com.todolist.model.utils.TodoListUtils;
 
 import javax.servlet.ServletConfig;
@@ -33,7 +33,7 @@ public class LoginServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        userService = UserRepositoryImpl.getInstance();
+        userService = ServiceDaoHelper.getUserRepository();
     }
 
     @Override

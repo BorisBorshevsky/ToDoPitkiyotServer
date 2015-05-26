@@ -1,11 +1,10 @@
 package com.todolist.cotroller.user.account;
 
 import com.todolist.cotroller.utils.Views;
-import com.todolist.model.Todo;
 import com.todolist.model.User;
+import com.todolist.model.api.ServiceDaoHelper;
 import com.todolist.model.api.TodoDaoException;
 import com.todolist.model.api.UserRepository;
-import com.todolist.model.api.UserRepositoryImpl;
 import com.todolist.model.utils.TodoListUtils;
 
 import javax.servlet.ServletConfig;
@@ -16,8 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.text.MessageFormat;
-import java.util.ResourceBundle;
 
 
 @WebServlet(name = "UpdateAccountServlet", urlPatterns = "/user/account/update.do")
@@ -27,7 +24,7 @@ public class UpdateAccountServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        userService = userService = UserRepositoryImpl.getInstance();
+        userService = ServiceDaoHelper.getUserRepository();
     }
 
     @Override

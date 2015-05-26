@@ -30,7 +30,6 @@ import java.util.List;
 
 /**
  * Interface for todo repository.
- *
  */
 public interface TodoRepository {
 

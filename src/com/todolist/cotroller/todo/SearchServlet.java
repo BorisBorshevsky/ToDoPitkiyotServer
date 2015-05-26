@@ -5,9 +5,9 @@ package com.todolist.cotroller.todo;
 import com.todolist.cotroller.utils.Views;
 import com.todolist.model.Todo;
 import com.todolist.model.User;
+import com.todolist.model.api.ServiceDaoHelper;
 import com.todolist.model.api.TodoDaoException;
 import com.todolist.model.api.TodoRepository;
-import com.todolist.model.api.TodoRepositoryImpl;
 import com.todolist.model.utils.TodoListUtils;
 
 import javax.servlet.ServletConfig;
@@ -31,7 +31,7 @@ public class SearchServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        todoService = TodoRepositoryImpl.getInstance();
+        todoService = ServiceDaoHelper.getTodoRepository();
     }
 
     @Override

@@ -12,7 +12,6 @@ import java.io.IOException;
 
 /**
  * Servlet that controls the "index" page.
- *
  */
 
 @WebServlet(name = "IndexServlet", urlPatterns = {"/", "/index"})

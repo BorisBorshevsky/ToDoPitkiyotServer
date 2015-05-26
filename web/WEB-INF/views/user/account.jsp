@@ -12,7 +12,7 @@
                     <h1>My settings</h1>
                 </div>
 
-                <%@ include file="../common/error.jspf"%>
+                <%@ include file="../common/error.jspf" %>
 
                 <div class="row">
                     <div class="span8">
@@ -65,7 +65,8 @@
                                     <label class="control-label" for="currentPassword">Current password:</label>
 
                                     <div class="controls">
-                                        <input type="password" id="currentPassword" name="currentPassword" class="input-medium" placeholder="min 6 characters" required="required"/>
+                                        <input type="password" id="currentPassword" name="currentPassword" class="input-medium" placeholder="min 1 character" required="required"/>
+
                                         <p class="help-block alert-error">${requestScope.errorCurrentPassword}</p>
                                     </div>
                                 </div>
@@ -74,7 +75,8 @@
                                     <label class="control-label" for="newPassword">New password:</label>
 
                                     <div class="controls">
-                                        <input type="password" id="newPassword" name="newPassword" class="input-medium" placeholder="min 6 characters" required="required"/>
+                                        <input type="password" id="newPassword" name="newPassword" class="input-medium" placeholder="min 1 character" required="required"/>
+
                                         <p class="help-block alert-error">${requestScope.errorNewPassword}</p>
                                     </div>
                                 </div>
@@ -83,7 +85,8 @@
                                     <label class="control-label" for="confirmationPassword">Confirmation password:</label>
 
                                     <div class="controls">
-                                        <input type="password" id="confirmationPassword" name="confirmationPassword" class="input-medium" placeholder="min 6 characters" required="required"/>
+                                        <input type="password" id="confirmationPassword" name="confirmationPassword" class="input-medium" placeholder="min 1 character" required="required"/>
+
                                         <p class="help-block alert-error">${requestScope.errorConfirmationPassword}</p>
                                     </div>
                                 </div>
@@ -104,9 +107,11 @@
                                 <p>You are about to remove your account from "Pitkiyot". This will completely
                                     delete all your data and you will be no more able to use your account.
                                     Please be sure.</p>
+
                                 <p>
                                     <a class="btn btn-danger" data-toggle="modal" href="#deleteAccountLink"> <i class="icon-remove icon-white"></i> Delete my account</a>
                                 </p>
+
                                 <div class="modal hide" id="deleteAccountLink">
                                     <div class="modal-header">
                                         <h3>Confirmation</h3>

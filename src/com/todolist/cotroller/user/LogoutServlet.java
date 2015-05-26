@@ -33,7 +33,6 @@ import java.io.IOException;
 
 /**
  * Servlet that controls the logout process.
- *
  */
 
 @WebServlet(name = "LogoutServlet", urlPatterns = "/user/logout")

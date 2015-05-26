@@ -28,7 +28,7 @@ import com.todolist.cotroller.utils.Views;
 import com.todolist.model.User;
 import com.todolist.model.api.TodoDaoException;
 import com.todolist.model.api.UserRepository;
-import com.todolist.model.api.UserRepositoryImpl;
+import com.todolist.model.api.UserRepositoryDao;
 import com.todolist.model.utils.TodoListUtils;
 
 import javax.servlet.ServletConfig;
@@ -52,7 +52,7 @@ public class RegisterServlet extends HttpServlet {
 
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        userService = UserRepositoryImpl.getInstance();
+        userService = UserRepositoryDao.getInstance();
     }
 
     @Override
@@ -96,7 +96,7 @@ public class RegisterServlet extends HttpServlet {
             session.setAttribute(TodoListUtils.SESSION_USER, user);
             nextPage = "/todos";
             request.getRequestDispatcher(nextPage).forward(request, response);
-        }catch (TodoDaoException e){
+        } catch (TodoDaoException e) {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);
         }

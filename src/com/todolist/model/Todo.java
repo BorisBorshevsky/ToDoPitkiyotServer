@@ -6,9 +6,7 @@ import java.util.Date;
 
 /**
  * Todo entity.
- *
  */
-
 @Entity
 public class Todo implements Serializable {
 

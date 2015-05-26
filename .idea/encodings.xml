@@ -23,9 +23,9 @@
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/Todo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/User.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryDao.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/views/about.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/WEB-INF/views/common" charset="UTF-8" />
@@ -35,6 +35,7 @@
     <file url="file://$PROJECT_DIR$/web/WEB-INF/views/user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/static/css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/web/static/img" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/static/img/todolist.ico" charset="windows-1255" />
     <file url="file://$PROJECT_DIR$/web/static/js" charset="UTF-8" />
   </component>
 </project>

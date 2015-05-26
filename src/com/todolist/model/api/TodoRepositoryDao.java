@@ -5,25 +5,26 @@ package com.todolist.model.api;
 import com.todolist.model.Todo;
 import org.hibernate.*;
 
-import java.util.Iterator;
 import java.util.List;
 
 /**
  * Implementation of {@link TodoRepository} using JPA.
- *
  */
 
-public class TodoRepositoryImpl implements TodoRepository {
+public class TodoRepositoryDao implements TodoRepository {
 
     private SessionFactory getSession() {
         return SessionFactoryDao.getSession();
     }
 
-    private static TodoRepositoryImpl instance;
-    private TodoRepositoryImpl(){}
-    public synchronized static TodoRepositoryImpl getInstance() {
-        if (instance == null){
-            instance = new TodoRepositoryImpl();
+    private static TodoRepositoryDao instance;
+
+    private TodoRepositoryDao() {
+    }
+
+    public synchronized static TodoRepositoryDao getInstance() {
+        if (instance == null) {
+            instance = new TodoRepositoryDao();
         }
         return instance;
     }

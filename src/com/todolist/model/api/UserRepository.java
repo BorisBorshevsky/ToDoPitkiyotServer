@@ -28,7 +28,6 @@ import com.todolist.model.User;
 
 /**
  * Interface for user repository.
- *
  */
 public interface UserRepository {
 
