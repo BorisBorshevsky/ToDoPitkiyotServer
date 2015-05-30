@@ -1,10 +1,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file="../common/header.jspf"%>
+<%@ include file="../common/header.jspf" %>
 
 <div class="container">
     <div class="row">
         <div class="span3">
-            <%@ include file="../common/sidebar.jspf"%>
+            <%@ include file="../common/sidebar.jspf" %>
         </div>
         <div class="span9">
             <div class="well">
@@ -18,6 +18,7 @@
 
                         <div class="control-group">
                             <label class="control-label" for="id">Todo Id:</label>
+
                             <div class="controls">
                                 <input type="text" id="id" name="id" value="${requestScope.todo.id}" disabled="disabled"/>
                             </div>
@@ -25,43 +26,47 @@
 
                         <div class="control-group">
                             <label class="control-label" for="title">Title:</label>
+
                             <div class="controls">
-                                <input type="text" id="title" name="title" value="${requestScope.todo.title}" required="required" autofocus="autofocus" />
+                                <input type="text" id="title" name="title" value="${requestScope.todo.title}" required="required" autofocus="autofocus"/>
                             </div>
                         </div>
 
                         <div class="control-group">
                             <label class="control-label" for="dueDate">Due date:</label>
+
                             <div class="controls">
-                                <input id="dueDate" name="dueDate" type="text" value="${requestScope.todo.dueDate}" required="required" />
+                                <input id="dueDate" name="dueDate" type="text" value="${requestScope.todo.dueDate}" required="required"/>
                             </div>
                         </div>
 
                         <div class="control-group">
                             <label class="control-label" for="status">Status:</label>
+
                             <div class="controls">
                                 <select id="status" name="status">
-                                  <option value="false">Todo</option>
-                                  <option value="true">Done</option>
-                              </select>
+                                    <option value="false">Todo</option>
+                                    <option value="true">Done</option>
+                                </select>
                             </div>
                         </div>
 
                         <div class="control-group">
                             <label class="control-label" for="priority">Priority:</label>
+
                             <div class="controls">
                                 <select id="priority" name="priority">
-                                  <option value="LOW">Low</option>
-                                  <option value="MEDIUM">Medium</option>
-                                  <option value="HIGH">High</option>
-                              </select>
+                                    <option value="LOW">Low</option>
+                                    <option value="MEDIUM">Medium</option>
+                                    <option value="HIGH">High</option>
+                                </select>
                             </div>
                         </div>
 
                         <input type="hidden" name="todoId" value="${requestScope.todo.id}"/>
 
                         <div class="form-actions">
-                            <button type="submit" class="btn btn-primary"> <i class="icon-refresh icon-white"></i> Update</button>
+                            <button type="submit" class="btn btn-primary"><i class="icon-refresh icon-white"></i> Update</button>
                             <button type="button" class="btn" onclick="history.go(-1)"><i class="icon-remove"></i> Cancel</button>
                         </div>
 
@@ -69,7 +74,7 @@
 
                     <script>
                         $('#dueDate').datepicker({
-                            format : 'dd/mm/yyyy'
+                            format: 'dd/mm/yyyy'
                         });
                     </script>
 
@@ -81,4 +86,4 @@
 </div>
 
 <%--end content--%>
-<%@ include file="../common/footer.jspf"%>
+<%@ include file="../common/footer.jspf" %>

@@ -17,11 +17,17 @@ public class TodoRepositoryDao implements TodoRepository {
         return SessionFactoryDao.getSession();
     }
 
+
     private static TodoRepositoryDao instance;
 
     private TodoRepositoryDao() {
     }
 
+    /**
+     * singleton
+     *
+     * @return instance
+     */
     public synchronized static TodoRepositoryDao getInstance() {
         if (instance == null) {
             instance = new TodoRepositoryDao();

@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b77d50ec-d542-4cf2-889a-425e3abe69da" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\javax.servlet.jsp.jstl-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\jsp-api-2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\jstl-1.2-sources.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\lib\servlet-api-2.4.jar" afterPath="" />
-      <change type="MOVED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\.idea\libraries\javax_servlet_jsp_jstl_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" />
+    <list default="true" id="b77d50ec-d542-4cf2-889a-425e3abe69da" name="Default" comment="refactor">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/static/css/bootstrapHero.css" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\out\artifacts\ToDoServer_war_exploded\WEB-INF\classes\com\todolist\cotroller\user\LoginServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\out\artifacts\ToDoServer_war_exploded\WEB-INF\classes\com\todolist\cotroller\user\LogoutServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\out\artifacts\ToDoServer_war_exploded\WEB-INF\classes\com\todolist\cotroller\user\RegisterServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\out\artifacts\ToDoServer_war_exploded\WEB-INF\classes\com\todolist\model\utils\TodoListUtils$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\src\com\todolist\cotroller\filter\LoginFilter.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\src\com\todolist\cotroller\user\LoginServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginAccountServlet.java" />
+      <change type="MOVED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\src\com\todolist\cotroller\user\LogoutServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutAccountServlet.java" />
+      <change type="MOVED" beforePath="C:\Tools\Hit\ToDoPitkiyotServer\src\com\todolist\cotroller\user\RegisterServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterAccountServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/AboutServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/AboutServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/user/account/AccountServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/user/account/AccountServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/user/account/ChangePasswordServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/user/account/ChangePasswordServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/CreateTodoServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/CreateTodoServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/DeleteTodoServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/DeleteTodoServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/IndexServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/IndexServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/SearchServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/SearchServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/api/ServiceDaoHelper.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/api/ServiceDaoHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/api/SessionFactoryDao.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/api/SessionFactoryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/Todo.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/Todo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/utils/TodoListUtils.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/utils/TodoListUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/UpdateTodoServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/cotroller/todo/UpdateTodoServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/User.class" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/classes/com/todolist/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/Priority.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/Priority.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/api/ServiceDaoHelper.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/api/ServiceDaoHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/api/SessionFactoryDao.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/api/SessionFactoryDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDoServer.iml" afterPath="$PROJECT_DIR$/ToDoServer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ToDoServer_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ToDoServer_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/Todo.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/Todo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/UpdateAccountServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/UpdateAccountServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/User.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryDao.java" afterPath="$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/todolist/cotroller/utils/Views.java" afterPath="$PROJECT_DIR$/src/com/todolist/cotroller/utils/Views.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/views/about.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/views/about.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/about.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/about.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/todo/create.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/todo/create.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/error.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/error.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/views/common/header.jspf" afterPath="$PROJECT_DIR$/out/artifacts/ToDoServer_war_exploded/WEB-INF/views/common/header.jspf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/common/header.jspf" afterPath="$PROJECT_DIR$/web/WEB-INF/views/common/header.jspf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/user/login.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/user/register.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ToDoServer.iws" />
@@ -36,32 +83,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQLConnector - tododb@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tododb" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQLConnector - tododb@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tododb" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tasks" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -70,41 +91,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="search.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp">
+      <file leaf-file-name="HomeServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/HomeServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8541329">
-              <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoRepositoryDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java">
+      <file leaf-file-name="UpdateAccountServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/UpdateAccountServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/about.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="168" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="168" />
+              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -114,42 +115,29 @@
         <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tododb.tasks" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/fee762bd/7e555212-2b9c-416c-b43e-567b577fb59b/tododb..tasks">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="TodoRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3328125">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/create.jsp">
+      <file leaf-file-name="DeleteAccountServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/DeleteAccountServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="102" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -159,17 +147,47 @@
         <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="83" selection-end-column="5" />
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <file leaf-file-name="SearchServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteTodoServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangePasswordServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/AccountServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -202,57 +220,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/todolist/model/TodoRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/UserRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/utils/Views.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/common/sidebar.jspf" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/common/footer.jspf" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/TasksEntity.hbm.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/user/login.jsp" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/model/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/user/register.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/common/error.jspf" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/common/navigationbar.jspf" />
         <option value="$PROJECT_DIR$/src/com/todolist/model/Todo.hbm.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/user/home.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/common/header.jspf" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/user/account.jsp" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/model/api/TodoDaoException.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/model/api/serviceHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/HomeServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/DeleteAccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/api/ServiceHelper.java" />
+        <option value="$PROJECT_DIR$/web/static/css/bootstrapHero.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/common/header.jspf" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/about.jsp" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterAccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutAccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/UpdateAccountServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/HomeServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/api/SessionFactoryDao.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/Todo.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/Priority.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/User.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/DeleteAccountServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/AccountServlet.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/todolist/model/api/ServiceHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginAccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java" />
         <option value="$PROJECT_DIR$/src/com/todolist/model/api/ServiceDaoHelper.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/api/SessionFactoryDao.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/UpdateAccountServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/Priority.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/todo/create.jsp" />
-        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/about.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/user/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/user/register.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/error.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/User.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/Todo.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryDao.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/utils/Views.java" />
+        <option value="$PROJECT_DIR$/src/com/todolist/cotroller/user/account/AccountServlet.java" />
       </list>
     </option>
   </component>
@@ -389,6 +407,9 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -469,7 +490,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -487,7 +508,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoPitkiyotServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -522,18 +565,8 @@
               <option name="myItemId" value="todolist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ToDoServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToDoPitkiyotServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out2" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,15 +580,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="out2" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="artifacts" />
+              <option name="myItemId" value="todolist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ToDoServer_war_exploded" />
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -569,15 +606,128 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todolist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cotroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoPitkiyotServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todolist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cotroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoPitkiyotServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todolist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cotroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoPitkiyotServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todolist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cotroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ToDoPitkiyotServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todolist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cotroller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,6 +755,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -709,6 +860,27 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -876,9 +1048,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Unknown" factoryName="Unknown">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -970,7 +1139,11 @@
       <workItem from="1432663511058" duration="3208000" />
       <workItem from="1432670005717" duration="1271000" />
       <workItem from="1432678735347" duration="53000" />
-      <workItem from="1432679442736" duration="1565000" />
+      <workItem from="1432679442736" duration="2180000" />
+      <workItem from="1432723918679" duration="592000" />
+      <workItem from="1432737970721" duration="268000" />
+      <workItem from="1432984306597" duration="644000" />
+      <workItem from="1432985613693" duration="5873000" />
     </task>
     <task id="LOCAL-00001" summary="XxX">
       <created>1432680275984</created>
@@ -984,18 +1157,33 @@
       <option name="project" value="LOCAL" />
       <updated>1432680589214</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="XxX">
+      <created>1432681014784</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1432681014784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42812000" />
+    <option name="totallyTimeSpent" value="50804000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2064" height="1128" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998997" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32698095" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1003,14 +1191,15 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25977933" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32698095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43731195" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17065868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21956088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.105788425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13522954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25977933" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1211,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998997" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26040268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1069,14 +1257,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="XxX" />
-    <option name="LAST_COMMIT_MESSAGE" value="XxX" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginServlet.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginAccountServlet.java</url>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -1094,36 +1283,36 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java</url>
-          <line>72</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java</url>
-          <line>69</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java</url>
-          <line>112</line>
+          <line>118</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java</url>
-          <line>48</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java</url>
-          <line>69</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="34" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1132,30 +1321,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/AccountServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1164,47 +1329,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/common/error.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/common/footer.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/common/sidebar.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1222,37 +1350,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-            <element signature="e#1265#1266#0" expanded="false" />
-            <element signature="e#1475#1476#0" expanded="false" />
-            <element signature="e#1522#1523#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1274,53 +1371,173 @@
         <state />
       </provider>
     </entry>
+    <entry file="dbDummy://dbtable:/fee762bd/7e555212-2b9c-416c-b43e-567b577fb59b/tododb..tasks">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.211/ApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#348#349#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/common/sidebar.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/common/error.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/bootstrapHero.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/common/header.jspf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDoServer.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/utils/TodoListUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="65" column="57" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/account.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="11.130953">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/SessionFactoryDao.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="38" column="168" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="168" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoDaoException.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryDao.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.038462">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1328,7 +1545,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/todolist/model/Todo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1336,61 +1553,123 @@
     <entry file="file://$PROJECT_DIR$/src/com/todolist/model/Priority.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepositoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoDaoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/SessionFactoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding>
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/ServiceDaoHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="15" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/utils/Views.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterAccountServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutAccountServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginAccountServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/HomeServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1398,7 +1677,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/UpdateAccountServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1406,23 +1685,15 @@
     <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/DeleteAccountServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="59" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1435,80 +1706,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="57" selection-start-line="91" selection-start-column="57" selection-end-line="91" selection-end-column="57" />
-          <folding>
-            <element signature="e#3430#3431#0" expanded="true" />
-            <element signature="e#3490#3491#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/ServiceDaoHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/user/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="168" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="168" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/create.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="102" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="3" selection-start-line="76" selection-start-column="3" selection-end-line="83" selection-end-column="5" />
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepositoryDao.java">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/about.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1516,29 +1733,18 @@
     <entry file="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <caret line="71" column="5" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/fee762bd/7e555212-2b9c-416c-b43e-567b577fb59b/tododb..tasks">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/todo/search.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/todolist/model/api/TodoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8541329">
-          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
-          <folding />
+        <state vertical-scroll-proportion="0.3328125">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

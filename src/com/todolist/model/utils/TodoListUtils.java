@@ -1,6 +1,5 @@
 package com.todolist.model.utils;
 
-import com.todolist.model.Priority;
 import com.todolist.model.Todo;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -12,51 +11,25 @@ import java.util.regex.Pattern;
  */
 public class TodoListUtils {
 
-    private TodoListUtils() { }
-
     public static final String SESSION_USER = "user";
 
     public static final String DATE_FORMAT = "dd/MM/yyyy";
 
     /**
-     * Return the icon name for the given priority.
+     * returns css style
      *
-     * @param priority the priority of the todo
-     * @return the icon name
-     */
-    public static String getPriorityIcon(Priority priority) {
-
-        String priorityIcon = "";
-
-        switch (priority) {
-            case HIGH:
-                priorityIcon = "up";
-                break;
-            case MEDIUM:
-                priorityIcon = "right";
-                break;
-            case LOW:
-                priorityIcon = "down";
-        }
-
-        return priorityIcon;
-    }
-
-    /**
-     * Return the css style to apply for the given status.
-     *
-     * @param status the status of the todo
-     * @return the css style of the status
+     * @param status status of  todo
+     * @return the css style
      */
     public static String getStatusStyle(boolean status) {
         return status ? "label-success" : "";
     }
 
     /**
-     * Return the label of the given status.
+     * returns label
      *
-     * @param status the status of the todo
-     * @return the label of the status
+     * @param status status of  todo
+     * @return the label
      */
     public static String getStatusLabel(boolean status) {
         return status ? "DONE" : "TODO";
@@ -83,12 +56,11 @@ public class TodoListUtils {
         Matcher matcher = p.matcher(input);
 
         return matcher.replaceAll(stringBuilder.toString());
-
     }
 
     /**
-     * Count the number of todos that are done.
-     * @param todoList the todos list
+     * Ccount done todos.
+     * @param todoList the todos
      * @return the number of todos done
      */
     public static int countTotalDone(List<Todo> todoList) {

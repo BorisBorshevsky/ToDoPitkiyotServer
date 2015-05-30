@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ include file="../common/header.jspf"%>
+<%@ include file="../common/header.jspf" %>
 <%--content--%>
 
 <div class="container">
@@ -10,23 +10,27 @@
                 <h1>Sign in</h1>
             </div>
 
-            <%@ include file="../common/error.jspf"%>
+            <%@ include file="../common/error.jspf" %>
 
             <form class="well form-horizontal" method="post" action="/login.do">
                 <fieldset>
 
                     <div class="control-group">
                         <label class="control-label" for="email">Email:</label>
+
                         <div class="controls">
                             <input id="email" name="email" type="email" class="input-medium" placeholder="your@email.com" required="required"/>
+
                             <p class="help-block alert-error">${requestScope.errorEmail}</p>
                         </div>
                     </div>
 
                     <div class="control-group">
                         <label class="control-label" for="password">Password:</label>
+
                         <div class="controls">
                             <input type="password" id="password" name="password" class="input-medium" placeholder="min 6 characters" required="required"/>
+
                             <p class="help-block alert-error">${requestScope.errorPassword}</p>
                         </div>
                     </div>
@@ -47,4 +51,4 @@
 </div>
 
 <%--end content--%>
-<%@ include file="../common/footer.jspf"%>
+<%@ include file="../common/footer.jspf" %>

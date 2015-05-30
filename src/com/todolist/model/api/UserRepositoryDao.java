@@ -19,6 +19,11 @@ public class UserRepositoryDao implements UserRepository {
     private UserRepositoryDao() {
     }
 
+    /**
+     * singleton
+     *
+     * @return instance
+     */
     public synchronized static UserRepositoryDao getInstance() {
         if (instance == null) {
             instance = new UserRepositoryDao();
@@ -26,6 +31,12 @@ public class UserRepositoryDao implements UserRepository {
         return instance;
     }
 
+    /**
+     * Get user by email.
+     *
+     * @param email user's email
+     * @return the user with the given email
+     */
     @Override
     public User getUserByEmail(String email) throws TodoDaoException {
         Session session = null;
@@ -51,6 +62,13 @@ public class UserRepositoryDao implements UserRepository {
         }
     }
 
+    /**
+     * Check user's email and password.
+     *
+     * @param email    user's email
+     * @param password user's password
+     * @return true if user credentials are ok
+     */
     @Override
     public boolean login(String email, String password) throws TodoDaoException {
         Session session = null;
@@ -77,6 +95,7 @@ public class UserRepositoryDao implements UserRepository {
             }
         }
     }
+
 
     @Override
     public User create(User user) throws TodoDaoException {
@@ -143,14 +162,4 @@ public class UserRepositoryDao implements UserRepository {
             }
         }
     }
-
-
-//    public boolean login(final String email, final String password) {
-//        TypedQuery<User> query = entityManager.createNamedQuery("findUserByEmailAndPassword", User.class);
-//        query.setParameter("p_email", email);
-//        query.setParameter("p_password", password);
-//        List<User> users = query.getResultList();
-//        return (users != null && !users.isEmpty());
-//    }
-
 }

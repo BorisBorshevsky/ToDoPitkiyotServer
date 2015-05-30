@@ -1,6 +1,4 @@
-package com.todolist.cotroller;
-
-import com.todolist.cotroller.utils.Views;
+package com.todolist.cotroller.user;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,17 +7,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
 /**
- * Servlet that controls the "about" page.
+ * Servlet that controls the logout process.
  */
 
-@WebServlet(name = "AboutServlet", urlPatterns = "/about")
-public class AboutServlet extends HttpServlet {
+@WebServlet(name = "LogoutAccountServlet", urlPatterns = "/user/logout")
+public class LogoutAccountServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setAttribute("aboutTabStyle", "active");
-        request.getRequestDispatcher(Views.ABOUT_PAGE).forward(request, response);
+        request.getSession().invalidate();
+        request.getRequestDispatcher("/index").forward(request, response);
     }
 
 }

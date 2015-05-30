@@ -1,27 +1,3 @@
-/*
- * The MIT License
- *
- *   Copyright (c) 2015, Mahmoud Ben Hassine (mahmoud@benhassine.fr)
- *
- *   Permission is hereby granted, free of charge, to any person obtaining a copy
- *   of this software and associated documentation files (the "Software"), to deal
- *   in the Software without restriction, including without limitation the rights
- *   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- *   copies of the Software, and to permit persons to whom the Software is
- *   furnished to do so, subject to the following conditions:
- *
- *   The above copyright notice and this permission notice shall be included in
- *   all copies or substantial portions of the Software.
- *
- *   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- *   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- *   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- *   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- *   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- *   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- *   THE SOFTWARE.
- */
-
 package com.todolist.cotroller.user;
 
 import com.todolist.cotroller.utils.Views;
@@ -45,8 +21,8 @@ import java.io.IOException;
  * Servlet that controls the registration process.
  */
 
-@WebServlet(name = "RegisterServlet", urlPatterns = {"/register", "/register.do"})
-public class RegisterServlet extends HttpServlet {
+@WebServlet(name = "RegisterAccountServlet", urlPatterns = {"/register", "/register.do"})
+public class RegisterAccountServlet extends HttpServlet {
 
     private UserRepository userService;
 
@@ -69,13 +45,12 @@ public class RegisterServlet extends HttpServlet {
         String password = request.getParameter("password");
         String confirmationPassword = request.getParameter("confirmationPassword");
 
-        String nextPage = Views.REGISTER_PAGE;
         checkPasswordsMatch(request, password, confirmationPassword);
 
         try {
             if (isAlreadyUsed(email)) {
                 request.setAttribute("error", email + " Already exists.");
-                request.getRequestDispatcher(nextPage).forward(request, response);
+                request.getRequestDispatcher(Views.REGISTER_PAGE).forward(request, response);
                 return;
             }
         } catch (TodoDaoException e) {
@@ -85,7 +60,7 @@ public class RegisterServlet extends HttpServlet {
         }
 
         if (isInvalid(request)) {
-            request.getRequestDispatcher(nextPage).forward(request, response);
+            request.getRequestDispatcher(Views.REGISTER_PAGE).forward(request, response);
             return;
         }
 
@@ -94,8 +69,7 @@ public class RegisterServlet extends HttpServlet {
             user = userService.create(user);
             HttpSession session = request.getSession();
             session.setAttribute(TodoListUtils.SESSION_USER, user);
-            nextPage = "/todos";
-            request.getRequestDispatcher(nextPage).forward(request, response);
+            request.getRequestDispatcher("/todos").forward(request, response);
         } catch (TodoDaoException e) {
             request.setAttribute("error", e.getMessage());
             request.getRequestDispatcher(Views.ERROR_PAGE).forward(request, response);

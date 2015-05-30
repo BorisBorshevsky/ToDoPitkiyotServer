@@ -9,9 +9,9 @@
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/UpdateTodoServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/HomeServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LoginAccountServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/LogoutAccountServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/RegisterAccountServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/AccountServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/ChangePasswordServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/user/account/DeleteAccountServlet.java" charset="UTF-8" />

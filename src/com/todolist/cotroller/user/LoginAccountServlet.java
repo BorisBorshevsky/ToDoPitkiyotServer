@@ -1,5 +1,3 @@
-
-
 package com.todolist.cotroller.user;
 
 import com.todolist.cotroller.utils.Views;
@@ -18,16 +16,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-
-/**
- * Servlet that controls the login process.
- * <p>
- * Get requests to "/login" redirects to login page.
- * Post requests to "/login.do" processes user login.
- */
-
-@WebServlet(name = "LoginServlet", urlPatterns = {"/login", "/login.do"})
-public class LoginServlet extends HttpServlet {
+@WebServlet(name = "LoginAccountServlet", urlPatterns = {"/login", "/login.do"})
+public class LoginAccountServlet extends HttpServlet {
 
     private UserRepository userService;
 

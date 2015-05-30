@@ -36,14 +36,13 @@ public class UpdateAccountServlet extends HttpServlet {
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute(TodoListUtils.SESSION_USER);
 
-        if (isAlreadyUsed(email) && isDifferent(email, user.getEmail())) {
-            request.setAttribute("error", email + " is already in use.");
-            request.setAttribute("user", user);
-            request.getRequestDispatcher(Views.ACCOUNT_PAGE).forward(request, response);
-            return;
-        }
-
         try {
+            if (isAlreadyUsed(email) && isDifferent(email, user.getEmail())) {
+                request.setAttribute("error", email + " is already in use.");
+                request.setAttribute("user", user);
+                request.getRequestDispatcher(Views.ACCOUNT_PAGE).forward(request, response);
+                return;
+            }
             user.setName(name);
             user.setEmail(email);
             userService.update(user);
@@ -59,13 +58,8 @@ public class UpdateAccountServlet extends HttpServlet {
         return !newEmail.equals(currentEmail);
     }
 
-    private boolean isAlreadyUsed(String email) {
-        try {
-            return userService.getUserByEmail(email) != null;
-        } catch (TodoDaoException e) {
-            e.printStackTrace();
-            return false; // todo: fix this shit!
-        }
+    private boolean isAlreadyUsed(String email) throws TodoDaoException {
+        return userService.getUserByEmail(email) != null;
     }
 
 }

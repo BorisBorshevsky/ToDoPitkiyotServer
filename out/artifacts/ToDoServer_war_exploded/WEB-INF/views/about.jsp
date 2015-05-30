@@ -27,9 +27,7 @@
                     </tr>
                     <tr>
                         <td><a href="http://www.oracle.com/technetwork/java/index-jsp-135475.html">Servlet / JSP</a></td>
-
-                        <td>345345</td>
-                        <%--<td>3.0 / 2.2</td>--%>
+                        <td>TBD</td>
                     </tr>
                     <tr>
                         <td><a href="http://www.hibernate.org/">Hibernate</a></td>

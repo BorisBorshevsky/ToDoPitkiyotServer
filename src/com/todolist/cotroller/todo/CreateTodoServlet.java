@@ -1,6 +1,4 @@
-
 package com.todolist.cotroller.todo;
-
 
 import com.todolist.cotroller.utils.Views;
 import com.todolist.model.Priority;

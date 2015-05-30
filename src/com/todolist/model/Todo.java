@@ -30,64 +30,93 @@ public class Todo implements Serializable {
         this.dueDate = dueDate;
     }
 
+
+    /**
+     * @return id
+     */
     public long getId() {
         return id;
     }
 
+    /**
+     * @param id new id
+     */
     public void setId(long id) {
         this.id = id;
     }
 
+    /**
+     * @return owners id
+     */
     public long getUserId() {
         return userId;
     }
 
+    /**
+     * @param userId new user id
+     */
     public void setUserId(long userId) {
         this.userId = userId;
     }
 
+    /**
+     * @return title
+     */
     public String getTitle() {
         return title;
     }
 
+    /**
+     * @param title new title
+     */
     public void setTitle(String title) {
         this.title = title;
     }
 
+    /**
+     * @return is done
+     */
     public boolean isDone() {
         return done;
     }
 
+    /**
+     * @param done set new done
+     */
     public void setDone(boolean done) {
         this.done = done;
     }
 
+    /**
+     * getPriority
+     *
+     * @return priority of the task
+     */
     public Priority getPriority() {
         return priority;
     }
 
+    /**
+     * @param priority returns pprioruty LOW|MED|HIGH
+     */
     public void setPriority(Priority priority) {
         this.priority = priority;
     }
 
+    /**
+     * @return due date
+     */
     public Date getDueDate() {
         return dueDate;
     }
 
+    /**
+     * get due date
+     *
+     * @param dueDate new due date of the task
+     */
     public void setDueDate(Date dueDate) {
         this.dueDate = dueDate;
     }
 
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("Todo{");
-        sb.append("id=").append(id);
-        sb.append(", userId=").append(userId);
-        sb.append(", title='").append(title).append('\'');
-        sb.append(", done=").append(done);
-        sb.append(", priority=").append(priority);
-        sb.append(", dueDate=").append(dueDate);
-        sb.append('}');
-        return sb.toString();
-    }
 }
