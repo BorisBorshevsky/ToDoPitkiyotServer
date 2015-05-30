@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="../common/header.jspf" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <div class="container">
     <div class="row">
@@ -36,7 +37,8 @@
                             <label class="control-label" for="dueDate">Due date:</label>
 
                             <div class="controls">
-                                <input id="dueDate" name="dueDate" type="text" value="${requestScope.todo.dueDate}" required="required"/>
+                                <fmt:formatDate value="${requestScope.todo.dueDate}" pattern="dd/MM/yyyy" var="formatedDate"/>
+                                <input id="dueDate" name="dueDate" type="text" value="${formatedDate}" required="required" />
                             </div>
                         </div>
 
@@ -72,12 +74,12 @@
 
                     </fieldset>
 
-                    <script>
+                    <!--<script>
                         $('#dueDate').datepicker({
                             format: 'dd/mm/yyyy'
                         });
                     </script>
-
+-->
                 </form>
 
             </div>

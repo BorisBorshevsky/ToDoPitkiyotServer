@@ -3,7 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/AboutServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/IndexServlet.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/filter/LoginFilter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/CreateTodoServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/DeleteTodoServlet.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/todolist/cotroller/todo/SearchServlet.java" charset="UTF-8" />

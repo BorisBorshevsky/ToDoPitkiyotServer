@@ -76,7 +76,7 @@ public class UpdateTodoServlet extends HttpServlet {
     //handle several date types from the client
     private Date extractDate(String date) {
         try {
-            return new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse(date);
+            return new SimpleDateFormat("dd/MM/yyyy").parse(date);
         } catch (ParseException e) {
             return new Date(date);
         }
